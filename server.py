@@ -26,7 +26,7 @@ def health_check():
     return {"status": "healthy"}
 
 @app.get("/corridor/nairobi-mombasa")
-def get_nairobi_mombasa():
+def get_nairobi_mombasa_route():
     return {
         "route": "Nairobi to Mombasa",
         "modes": [
